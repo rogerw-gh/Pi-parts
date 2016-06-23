@@ -1,0 +1,100 @@
+<html>
+  <head>
+
+    <title>MeArm as built for Fujitsu World Tour, London</title>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script language="javascript" type="text/javascript">
+		function Button_onclick(direction) {
+			$.ajax({ url: '/' + direction });
+		}
+	</script>  
+  </head>
+	<body>
+		<h1><font size= "40" color="red"><center>MeArm Educational Demonstrator - <br><center>
+Fujitsu World Tour 2016</font></h1>
+		<table>
+			<tr>
+				<td colspan="3" style="text-align: center;font-size:300%; color:red">
+					Grip
+				</td>
+				<td style=" color:white">....................</td>
+				<td style="text-align: center">
+					<input id="btnGOpen" type="button" size="40" value="Open" onclick="Button_onclick('gopen')" />
+				</td>
+				<td style=" color:white">....................</td>
+				<td style="text-align: center">
+					<input id="btnGClose" type="button" size="40" value="Close" onclick="Button_onclick('gclose')" />
+				</td>
+			</tr>
+			<tr>
+			</tr>
+			<tr>
+			</tr>
+			<tr>
+			</tr>
+			<tr>
+			</tr>
+			<tr>
+			</tr>
+			<tr>
+				<td colspan="3" style="text-align: center;font-size:300%;color:red">
+					Elbow
+				</td>
+				<td style=" color:white">....................</td>
+				<td style="text-align: center">
+					<input id="btnEUp" type="button" value="Up" onclick="Button_onclick('eup')" />
+				</td>
+				<td style=" color:white">....................</td>
+				<td style="text-align: center">
+					<input id="btnEDown" type="button" value="Down" onclick="Button_onclick('edown')" />
+				</td>
+			</tr>
+			</tr>
+			<tr>
+			</tr>
+			<tr>
+			<tr>
+			</tr>
+			<tr>
+			</tr>
+			<tr>
+			</tr>
+			<tr>
+				<td colspan="3" style="text-align: center;font-size:300%;color:red">
+					Shoulder
+				</td>
+				<td style=" color:white">....................</td>
+				<td style="text-align: center">
+					<input id="btnSBack" type="button" value="Back" onclick="Button_onclick('sback')" />
+				</td>
+				<td style=" color:white">....................</td>
+				<td style="text-align: center">
+					<input id="btnSFwd" type="button" value="Forward" onclick="Button_onclick('sfwd')" />
+				</td>
+			</tr>
+			</tr>
+			<tr>
+			</tr>
+			<tr>
+			<tr>
+			</tr>
+			<tr>
+			</tr>
+			<tr>
+			</tr>
+			<tr>
+				<td colspan="3" style="text-align: center;font-size:300%;color:red">
+					Waist
+				</td>
+				<td style=" color:white">....................</td>
+				<td style="text-align: center">
+					<input id="btnHLeft" type="button" value="Left" onclick="Button_onclick('hleft')" />
+				</td>
+				<td style=" color:white">....................</td>
+				<td style="text-align: center">
+					<input id="btnHRight" type="button" value="Right" onclick="Button_onclick('hright')" />
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
